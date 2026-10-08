@@ -12,11 +12,11 @@
   <DefaultLocale>zh-TW</DefaultLocale>
   <DisplayName DefaultValue="主題字型"/>
   <Description DefaultValue="修改文件的佈景主題字型（Headings / Body），等同 Windows 版的「自訂字型」。"/>
-  <IconUrl DefaultValue="https://tthomastsai.github.io/8Oct-ThemeFontonWordforMAC/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://tthomastsai.github.io/8Oct-ThemeFontonWordforMAC/assets/icon-80.png"/>
-  <SupportUrl DefaultValue="https://tthomastsai.github.io/8Oct-ThemeFontonWordforMAC/taskpane.html"/>
+  <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+  <SupportUrl DefaultValue="https://localhost:3000/taskpane.html"/>
   <AppDomains>
-    <AppDomain>https://tthomastsai.github.io</AppDomain>
+    <AppDomain>https://localhost:3000</AppDomain>
   </AppDomains>
 
   <Hosts>
@@ -28,7 +28,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://tthomastsai.github.io/8Oct-ThemeFontonWordforMAC/taskpane.html"/>
+    <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 
@@ -69,12 +69,12 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16" DefaultValue="https://tthomastsai.github.io/8Oct-ThemeFontonWordforMAC/assets/icon-16.png"/>
-        <bt:Image id="Icon.32" DefaultValue="https://tthomastsai.github.io/8Oct-ThemeFontonWordforMAC/assets/icon-32.png"/>
-        <bt:Image id="Icon.80" DefaultValue="https://tthomastsai.github.io/8Oct-ThemeFontonWordforMAC/assets/icon-80.png"/>
+        <bt:Image id="Icon.16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
+        <bt:Image id="Icon.32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
+        <bt:Image id="Icon.80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://tthomastsai.github.io/8Oct-ThemeFontonWordforMAC/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Group.Label" DefaultValue="主題字型"/>

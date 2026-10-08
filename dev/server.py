@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""本機 HTTPS 伺服器：讓 Word 載入增益集 (https://localhost:3000)。
+"""【僅供本機開發】本機 HTTPS 伺服器 (https://localhost:3000)，搭配 dev/manifest.localhost.xml 使用。
+正式使用請改用 GitHub Pages 版的 manifest.xml，不需要這個伺服器。
 
 先執行一次（會要求輸入 Mac 密碼，用來信任憑證）：
     npx office-addin-dev-certs install
@@ -11,7 +12,7 @@ import ssl
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent   # 倉庫根目錄
 CERT_DIR = Path.home() / ".office-addin-dev-certs"
 CERT, KEY = CERT_DIR / "localhost.crt", CERT_DIR / "localhost.key"
 PORT = 3000
